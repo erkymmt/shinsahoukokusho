@@ -1,0 +1,8 @@
+pdf_file,text_file,pages,characters,status,error
+apixaban-eliquis-2015-review.pdf,apixaban-eliquis-2015-review.txt,68,111389,extracted,
+clopidogrel-plavix-2012-review.pdf,clopidogrel-plavix-2012-review.txt,53,71904,extracted,
+edoxaban-lixiana-2025-review.pdf,edoxaban-lixiana-2025-review.txt,26,37049,extracted,
+macitentan-tadalafil-yuvanci-2024-review.pdf,macitentan-tadalafil-yuvanci-2024-review.txt,31,96954,ocr_extracted,Original text extraction was garbled; re-extracted with macOS Vision OCR on 2026-05-16; OCR text may contain recognition errors
+prasugrel-efient-2014-review.pdf,prasugrel-efient-2014-review.txt,101,179852,extracted,
+prasugrel-efient-2021-review.pdf,prasugrel-efient-2021-review.txt,55,185888,ocr_extracted,Image-only encrypted PDF; extracted with macOS Vision OCR on 2026-05-16; OCR text may contain recognition errors
+rivaroxaban-xarelto-2023-review.pdf,rivaroxaban-xarelto-2023-review.txt,,67688,extracted_by_alternative,pypdf failed; existing text kept. DependencyError: cryptography>=3.1 is required for AES algorithm

@@ -1,0 +1,14 @@
+report_id,product_name,approval_year,drug_class,target_condition,primary_relevance,recency_value,key_efficacy_points,key_safety_points,japanese_data_points,why_useful_for_current_product,source_pdf_path,status,notes
+edoxaban-lixiana-2025,リクシアナ,2025,抗凝固薬,血栓塞栓症等,high,high,,,,近縁薬効かつ最近の審査報告書があるため優先候補,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3339002F5025?user=1,candidate,審査報告書(2025年02月20日)あり
+edoxaban-lixiana-2021,リクシアナ,2021,抗凝固薬,血栓塞栓症等,high,medium,,,,近縁薬効の追加適応・剤形等の論点確認用,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3339002F5025?user=1,candidate,審査報告書(2021年08月25日)あり
+rivaroxaban-xarelto-2023,イグザレルト,2023,抗凝固薬,血栓塞栓症等,high,high,,,,近縁薬効かつ比較的新しい書きぶり確認用,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3339003F4023?user=1,candidate,審査報告書(2023年11月24日)あり
+rivaroxaban-xarelto-2021,イグザレルト,2021,抗凝固薬,血栓塞栓症等,high,medium,,,,抗凝固薬の臨床評価・安全性論点確認用,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3339003F4023?user=1,candidate,審査報告書(2021年01月22日)あり
+apixaban-eliquis-2015,エリキュース,2015,抗凝固薬,血栓塞栓症等,high,low,,,,近縁薬効の基本論点抽出用。文体は最近例で補正する,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3339004F2025?user=1,candidate,審査報告書(2015年12月21日)あり
+apixaban-eliquis-2012,エリキュース,2012,抗凝固薬,血栓塞栓症等,high,low,,,,古いがDOAC審査の論点抽出用,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3339004F2025?user=1,candidate,審査報告書(2012年12月25日)あり
+prasugrel-efient-2021,エフィエント,2021,抗血小板薬,虚血性脳血管障害等,high,medium,,,,抗血小板薬かつ脳血管系・出血リスクの近縁論点確認用,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3399009F5025?user=1,candidate,審査報告書(2021年12月24日)あり
+prasugrel-efient-2014,エフィエント,2014,抗血小板薬,血栓性イベント予防等,medium,low,,,,抗血小板薬の基本論点抽出用。文体は最近例で補正する,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3399009F1020?user=1,candidate,審査報告書(2014年03月24日)あり
+ticagrelor-brilinta-2016,ブリリンタ,2016,抗血小板薬,血栓性イベント予防等,medium,low,,,,抗血小板薬の有効性・出血リスク論点抽出用,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3399011F1027?user=1,candidate,審査報告書(2016年09月28日)あり
+clopidogrel-plavix-2012,プラビックス,2012,抗血小板薬,虚血性脳血管障害等,medium,low,,,,脳血管系・抗血小板薬の歴史的論点確認用,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/3399008F1025?user=1,candidate,複数の審査報告書あり
+ipctacopan-fabhalta-2024,ファビハルタ,2024,補体阻害薬,発作性夜間ヘモグロビン尿症,low,high,,,,近年の新有効成分含有医薬品の文体・章立て参照用,https://www.pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0037.html,candidate,2024年度承認品目一覧に掲載
+voclosporin-lupkynis-2024,ルプキネス,2024,免疫抑制薬,ループス腎炎,low,high,,,,近年の新有効成分含有医薬品の有効性・安全性記載参照用,https://www.pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0037.html,candidate,2024年度承認品目一覧に掲載
+macitentan-tadalafil-yuvanci-2024,ユバンシ配合錠,2024,循環器系薬剤,肺動脈性肺高血圧症,low,high,,,,循環器領域で最近の書きぶりを確認する補助候補,https://www.pmda.go.jp/PmdaSearch/rdSearch/02/2190105F1029?user=1,candidate,審査報告書(2024年09月24日)あり
