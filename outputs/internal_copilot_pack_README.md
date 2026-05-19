@@ -2,7 +2,7 @@
 
 このzipは、内部環境のCopilotに渡すための外部準備パックです。
 
-公表済みPMDA審査報告書から作成した、7項作成用プロンプト、全体手順書、書きぶりパターン、論点マトリクス、Excel互換ファイルを含みます。
+公表済みPMDA審査報告書から作成した、7項作成用プロンプト、全体手順書、書きぶりパターン、論点マトリクス、Excel互換ファイル、公表審査報告書PDF本体を含みます。
 
 企業申請資料、未公表データ、内部判断、照会事項案、最終審査報告書ドラフトは含まれていません。
 
@@ -68,19 +68,33 @@
 
 各PDFのテキスト抽出状況を一覧にしたファイルです。
 
+### 公表審査報告書PDF本体
+
+`raw_public_reports/`
+
+7項の章立て、表の作り方、数値の置き方、本文の粒度を原本で確認するための公表PDFです。
+
+特に7項作成時は、次を優先して参照してください。
+
+- `raw_public_reports/macitentan-tadalafil-yuvanci-2024-review.pdf`: 7項冒頭、主な臨床試験の概略表、第III相試験、主要評価項目表、安全性表、日本人集団。
+- `raw_public_reports/edoxaban-lixiana-2025-review.pdf`: 1試験中心の7項、出血リスク、追加調査なしの整理。
+- `raw_public_reports/prasugrel-efient-2021-review.pdf`: 複数試験、非劣性未検証、CYP2C19、低体重、高齢者、製造販売後調査。
+- `raw_public_reports/rivaroxaban-xarelto-2023-review.pdf`: 少数例、小児、体重別用量、出血、RMP。
+
 ## 内部Copilotへの渡し方
 
 1. zipを展開する。
 2. まずこのREADMEを読む。
 3. 7項を作るなら `prompt_pack/section7_clinical_data_prompt.md` を開く。
 4. 内部Copilotに、今回品目の内部資料と `section7_clinical_data_prompt.md` を渡す。
-5. 必要に応じて `internal_copilot_runbook.md`、`writing_patterns.md`、`review_report_analysis_matrix.xlsx` を追加参照させる。
+5. 必要に応じて `internal_copilot_runbook.md`、`writing_patterns.md`、`review_report_analysis_matrix.xlsx`、`raw_public_reports/` のPDFを追加参照させる。
 6. 出力された7項ドラフトについて、根拠資料の有無、数値、試験番号、評価項目、解析対象、安全性分類を人が確認する。
 
 ## 注意事項
 
 - 公表済み報告書は、今回品目の事実補完には使わないでください。
 - 公表済み報告書は、章立て、表の作り方、論点の拾い方、書きぶりの参考にだけ使ってください。
+- PDF本体は公表資料の原本確認用です。PDF内の他品目の試験番号、数値、疾患固有事情を今回品目の事実として混入しないでください。
 - 申請資料に根拠がない数値や判断は、本文に混ぜず `要確認事項` に残してください。
 - OCR由来テキストには誤認識が残り得るため、正確な引用、数値、試験番号、薬剤名、遺伝子名はPDF原本で確認してください。
 - このzipには内部資料や最終ドラフトを入れないでください。
