@@ -10,6 +10,7 @@
 
 ## Included Files
 
+- `outputs/internal_copilot_pack_README.md`
 - `prompt_pack/internal_copilot_runbook.md`
 - `prompt_pack/internal_copilot_master_prompt.md`
 - `prompt_pack/current_product_checklist.md`
