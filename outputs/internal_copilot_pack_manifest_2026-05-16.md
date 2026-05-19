@@ -13,6 +13,7 @@
 - `prompt_pack/internal_copilot_runbook.md`
 - `prompt_pack/internal_copilot_master_prompt.md`
 - `prompt_pack/current_product_checklist.md`
+- `prompt_pack/section7_clinical_data_prompt.md`
 - `patterns/writing_patterns.md`
 - `matrices/review_report_analysis_matrix.csv`
 - `outputs/excel_compatible/review_report_analysis_matrix_utf8_bom.csv`
