@@ -2,7 +2,9 @@
 
 このzipは、内部環境のCopilotに渡すための外部準備パックです。
 
-公表済みPMDA審査報告書から作成した、7項作成用プロンプト、全体手順書、書きぶりパターン、論点マトリクス、Excel互換ファイル、公表審査報告書PDF本体を含みます。
+公表済みPMDA審査報告書から作成した、7項作成用プロンプト、全体手順書、書きぶりパターン、論点マトリクス、Excel互換ファイルを含みます。
+
+メール受信サイズ制限にかかりにくくするため、公表審査報告書PDF本体はこのzipには含めていません。PDF本体は別ファイル `outputs/reference_public_review_reports_2026-05-24.zip` に分けています。
 
 企業申請資料、未公表データ、内部判断、照会事項案、最終審査報告書ドラフトは含まれていません。
 
@@ -70,16 +72,16 @@
 
 ### 公表審査報告書PDF本体
 
-`raw_public_reports/`
+別zip: `outputs/reference_public_review_reports_2026-05-24.zip`
 
 7項の章立て、表の作り方、数値の置き方、本文の粒度を原本で確認するための公表PDFです。
 
 特に7項作成時は、次を優先して参照してください。
 
-- `raw_public_reports/macitentan-tadalafil-yuvanci-2024-review.pdf`: 7項冒頭、主な臨床試験の概略表、第III相試験、主要評価項目表、安全性表、日本人集団。
-- `raw_public_reports/edoxaban-lixiana-2025-review.pdf`: 1試験中心の7項、出血リスク、追加調査なしの整理。
-- `raw_public_reports/prasugrel-efient-2021-review.pdf`: 複数試験、非劣性未検証、CYP2C19、低体重、高齢者、製造販売後調査。
-- `raw_public_reports/rivaroxaban-xarelto-2023-review.pdf`: 少数例、小児、体重別用量、出血、RMP。
+- `macitentan-tadalafil-yuvanci-2024-review.pdf`: 7項冒頭、主な臨床試験の概略表、第III相試験、主要評価項目表、安全性表、日本人集団。
+- `edoxaban-lixiana-2025-review.pdf`: 1試験中心の7項、出血リスク、追加調査なしの整理。
+- `prasugrel-efient-2021-review.pdf`: 複数試験、非劣性未検証、CYP2C19、低体重、高齢者、製造販売後調査。
+- `rivaroxaban-xarelto-2023-review.pdf`: 少数例、小児、体重別用量、出血、RMP。
 
 ## 内部Copilotへの渡し方
 
@@ -87,8 +89,9 @@
 2. まずこのREADMEを読む。
 3. 7項を作るなら `prompt_pack/section7_clinical_data_prompt.md` を開く。
 4. 内部Copilotに、今回品目の内部資料と `section7_clinical_data_prompt.md` を渡す。
-5. 必要に応じて `internal_copilot_runbook.md`、`writing_patterns.md`、`review_report_analysis_matrix.xlsx`、`raw_public_reports/` のPDFを追加参照させる。
-6. 出力された7項ドラフトについて、根拠資料の有無、数値、試験番号、評価項目、解析対象、安全性分類を人が確認する。
+5. 必要に応じて `internal_copilot_runbook.md`、`writing_patterns.md`、`review_report_analysis_matrix.xlsx` を追加参照させる。
+6. PDF原本が必要な場合だけ、別zip `reference_public_review_reports_2026-05-24.zip` を展開して追加参照させる。
+7. 出力された7項ドラフトについて、根拠資料の有無、数値、試験番号、評価項目、解析対象、安全性分類を人が確認する。
 
 ## 注意事項
 
